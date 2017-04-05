@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Web App</title>
+  <link rel="stylesheet" type="text/css" href="/static/css/mobile.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="/static/scripts/mobile.js"></script>
+  <script src="/static/scripts/formFunctions.js"></script>
+</head>
+<body>
+  <header class="mobile-header">
+    <h1>Payment Tracker</h1>
+    <img src="/static/images/hamburger.png" alt="menu" />
+  </header>
+  <section class="mobile-body">
+    <nav class="navbar">
+      <ul>
+        <li><a href="/">HOME</a></li>
+        <li><a href="/static/mobile/pages/payments.html">PAYMENTS</a></li>
+        <li><a class="selected">ACCOUNT</a></li>
+        <li><a class="logout">LOGOUT</a></li>
+      </ul>
+    </nav>
+    <h1 id="helloText"></h1>
+    <div class="create-section">
+      <header class="container-header">
+        <h1>Create Account</h1>
+      </header>
+      <form id="sendAccount">
+        <br /><strong>*Username </strong><br /><input type="text" id="cUser" />
+        <h2 id="cUserPrompt"></h2>
+        <strong>*Password </strong><br /><input type="password" id="cPass" />
+        <h2 id="cPassPrompt"></h2>
+        <strong>*Confirm Password </strong><br /><input type="password" id="cConfirm" />
+        <h2 id="cConfirmPrompt"></h2>
+        <strong>E-Mail </strong><br /><input type="email" id="cEmail" />
+        <h2 id="cEmailPrompt"></h2>
+        <button type="submit">Submit</button><br /><br />
+      </form>
+    </div>
+    <div class="login-section">
+      <header class="container-header">
+        <h1>Log-In</h1>
+      </header>
+      <form id="getAccount">
+        <br /><strong>Username or E-Mail </strong><br /><input type="text" id="lUser" /><br /><br />
+        <strong>Password </strong><br /><input type="password" id="lPass" /><br /><br />
+        <button type="submit">Submit</button><br /><br />
+      </form>
+    </div>
+  </section>
+  <footer class="mobile-footer">
+    <h1 id="getDate"></h1>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kervingames</title>
+  <link rel="stylesheet" type="text/css" href="/static/css/mobile.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+  <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="/static/scripts/payments.js"></script>
+  <script src="/static/scripts/mobile.js"></script>
+  <script src="/static/scripts/formFunctions.js"></script>
+</head>
+<body>
+  <section class="mobile-body">
+    <div class="create-section">
+      <form id="sendAccount">
+        <br /><input type="text" id="cUser" onblur="this.placeholder='*Username'"
+        onfocus="this.placeholder=''" placeholder="*Username"/>
+        <h2 id="cUserPrompt"></h2>
+        <input type="password" id="cPass" onblur="this.placeholder='*Password'"
+        onfocus="this.placeholder=''" placeholder="*Password"/>
+        <h2 id="cPassPrompt"></h2>
+        <input type="password" id="cConfirm" onblur="this.placeholder='*Confirm Password'"
+        onfocus="this.placeholder=''" placeholder="*Confirm Password"/>
+        <h2 id="cConfirmPrompt"></h2>
+        <input type="email" id="cEmail" onblur="this.placeholder='E-Mail Address'"
+        onfocus="this.placeholder=''" placeholder="E-Mail Address"/>
+        <h2 id="cEmailPrompt"></h2>
+        <button type="submit">Create Account &rarr;</button><br /><br />
+      </form>
+      <h1 id="selectLogin"><a class="launch-create-pane">Go back to Log-in</a></h1>
+    </div>
+    <div class="login-section">
+      <form id="getAccount">
+        <br /><input type="text" id="lUser" onblur="this.placeholder='Username/E-Mail'"
+        onfocus="this.placeholder = ''" placeholder="Username/E-Mail"/>
+        <input type="password" id="lPass" onblur="this.placeholder='Password'"
+        onfocus="this.placeholder = ''" placeholder="Password"/>
+        <button type="submit">Log-In &rarr;</button><br /><br />
+      </form>
+      <h1 id="selectCreateAccount"><a class="launch-create-pane">Don't have an account?</a></h1>
+      <h2 style="color:white;font-size:5vw;">Use root11:root11 for username and password if you
+      would not like to make an account.</h2>
+    </div>
+  </section>
+</body>
+</html>

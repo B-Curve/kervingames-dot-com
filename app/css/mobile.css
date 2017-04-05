@@ -1,0 +1,194 @@
+/***********************************************
+EVERYTHING UNDER THIS COMMENT APPLIES TO INDEX
+***********************************************/
+
+body{
+  margin: 0;
+  padding: 0;
+  background: #1e5799;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+
+.mobile-header{
+  width: 100vw;
+  height: 8vh;
+  background: #1e5799;
+  border-bottom: 1px solid white;
+  text-align: center;
+}
+
+.mobile-header h1{
+  color: white;
+  line-height: 8vh;
+  margin: 0;
+}
+
+.mobile-body{
+  width: 100vw;
+  height: inherit;
+  margin: 0 auto;
+  background: #1e5799;
+}
+
+.mobile-body h2{
+  color: red;
+  font-size: 5vw;
+}
+
+#helloText{
+  text-align: center;
+  background: #633;
+  color: white;
+  width: 90vw;
+  margin: 0 auto;
+}
+
+#selectCreateAccount, #selectLogin{
+  font-size: 4.5vw;
+  color: #339;
+  margin-top: -2.5%;
+}
+
+.launch-create-pane{
+  color: #339;
+}
+
+.create-section h1, .login-section h1{
+  line-height: 10vh;
+  margin: 0;
+}
+
+.create-section{
+  width: 100vw;
+  height: 100vh;
+  float: right;
+  background: #1e5799;
+  outline: 1px solid #633;
+  position: fixed;
+  text-align: center;
+}
+
+.login-section{
+  width: 100vw;
+  height: 100vh;
+  background: #1e5799;
+  outline: 1px solid #633;
+  text-align: center;
+  overflow: hidden;
+  position: fixed;
+  float: left;
+}
+
+#getAccount input{
+  width: 100vw;
+  height: 10vh;
+  border-radius: 0;
+  border: none;
+  border-top: 2px solid #339;
+  border-bottom: 2px solid #339;
+  text-align: center;
+  font-size: 4vw;
+  padding-left: 0;
+}
+
+#getAccount input:nth-of-type(1){
+  border-bottom: 0;
+  margin-top: 15vh;
+}
+
+#getAccount button, #sendAccount button{
+  width: 100%;
+  border: none;
+  background: white;
+  height: 10vh;
+  border-top: 1px solid #339;
+  border-bottom: 2px solid #339;
+  font-size: 1.5em;
+}
+
+#sendAccount input{
+  width: 100vw;
+  height: 7vh;
+  border-radius: 0;
+  border: none;
+  border-top: 2px solid #339;
+  border-bottom: 2px solid #339;
+  text-align: center;
+  font-size: 4vw;
+  padding-left: 0;
+}
+
+#sendAccount input:nth-of-type(1){
+  border-bottom: 0;
+  margin-top: 15vh;
+}
+
+.container-header{
+  width: 100%;
+  height: 20%;
+  border-bottom: 1px solid #633;
+  text-align: center;
+  line-height: 7.5vh;
+}
+
+.mobile-footer{
+  width: 100vw;
+  height: 7.5vh;
+  background: #633;
+  text-align: center;
+}
+
+.mobile-footer h1{
+  margin: auto;
+  color: white;
+  line-height: 4.75vh;
+  line-height: 7.5vh;
+}
+
+/****************************************************
+EVERYTHING UNDER THIS COMMENT APPLIES TO LOGGEDINDEX
+****************************************************/
+
+.payment-selector{
+  width: 90%;
+  height: relative;
+  outline: 1px solid #633;
+  background: #eee;
+  margin: 0 auto;
+  padding-bottom: 2vh;
+}
+
+.payment-header{
+  text-align: center;
+  border-bottom: 1px solid #633;
+  width: 100%;
+  height: 10%;
+  font-size: 4vw;
+}
+
+.payment-header h1{
+  vertical-align: middle;
+  margin: 0;
+  padding-top: 2%;
+}
+
+#getPayments{
+  text-align: center;
+}
+
+#paymentsMessage{
+  color: blue;
+}
+
+#logout{
+  color: #911;
+}

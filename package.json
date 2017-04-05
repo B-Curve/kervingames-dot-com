@@ -1,0 +1,26 @@
+{
+  "name": "kervingames(dot)com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "brandon kervin",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "client-sessions": "^0.7.0",
+    "connect": "^3.6.0",
+    "cookie-parser": "^1.4.3",
+    "crypto": "0.0.3",
+    "date-and-time": "^0.4.0",
+    "express": "^4.15.2",
+    "express-device": "^0.4.2",
+    "fs": "0.0.1-security",
+    "mobile-detect": "^1.3.5",
+    "mysql": "^2.13.0",
+    "subdomain": "^1.2.0",
+    "vhost": "^3.0.2"
+  }
+}
